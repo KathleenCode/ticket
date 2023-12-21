@@ -1,0 +1,108 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem 3rem;
+  border-radius: 30px;
+  background-color: #6DB9EF;
+  box-shadow:7px 9px 1px #1AACAC;
+}
+
+form label {
+  text-align: start;
+  color: #001B79;
+  font-weight: bold;
+}
+form input, textarea {
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  border: 3px solid #7C93C3;
+}
+form button {
+  cursor: pointer;
+  padding: 3px;
+  color: #1640D6;
+  justify-self: end;
+  font-weight: bold;
+  margin: .5rem 2rem;
+}
+form .icon {
+  font-size: 1.7rem;
+  color: #363062;
+  padding: .1rem .5rem;
+  margin: .1rem 1rem;
+}
+
+.new {
+  background-color: #C5E898;
+  border-radius: 10px;
+  border: 3px dashed #1640D6;
+  color: #363062;
+  padding: 15px;
+  margin: .5rem;
+  /* width: 20%;
+  height: 20vh; */
+}
+.new p {
+  border-bottom: 1.5px solid #3559E0;
+  font-weight: bold;
+}
+.new .icon {
+  font-size: 1rem;
+  color: #363062;
+  padding: .1rem .3rem;
+  margin: .1rem .5rem;
+}
+
+.new button {
+  cursor: pointer;
+  padding: 1.2px;
+  color: #1640D6;
+  justify-self: end;
+  font-weight: bold;
+  margin: .5rem .5rem;
+}
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
